@@ -1,7 +1,11 @@
 body {
 font-size: 12px;
-font-family: open sans, Ariel,;
+font-family: 'open sans', Ariel, sans-serif;
 color:#444;
 }
-h1, h2,h3,h4,h5, {
+
+
+
+h1, h2,h3,h4,h5,ul,p, {
+font-weight: 300;
 }
