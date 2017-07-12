@@ -1,11 +1,35 @@
 body {
-font-size: 12px;
-font-family: 'open sans', Ariel, sans-serif;
-color:#444;
+  font-size: 12px;
+  font-family: 'open sans', Arial, sans-serif;
+  color:#444;
 }
 
+h1, h2, h3, h4, h5, ul, p {
+  font-weight: 300;
+}
 
+h1 {
+  font-size: 4em;
+  text-align: center;
+}
 
-h1, h2,h3,h4,h5,ul,p, {
-font-weight: 300;
+h2 {
+  font-size:1.5em;
+  text-transform:uppercase;
+  color: rgba(255,255, 255, 1);
+  background-color: #d1d1d1;
+}
+
+h3 {
+  font-size:1.3em;
+  font-weight:600;
+}
+
+h5 {
+  font-style: italic;
+  font-size: 12px;
+}
+
+ul {
+  font-size:1.10em;
 }
