@@ -60,6 +60,8 @@ h1, h2, h3, h4, h5, ul, p {
 
 .menu {
   font-size:1.10em;
+  margin:0px auto;
+  padding:0px auto;
 }
 .discription {
 margin-top: 10px;
