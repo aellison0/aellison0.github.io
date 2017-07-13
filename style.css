@@ -33,6 +33,10 @@ h1, h2, h3, h4, h5, ul, p {
   background-color: #d1d1d1;
   margin-bottom: 10px;
   margin:0px auto;
+  text-align: center;
+  width:30%;
+  min-width: 150px;
+  border-bottom: 1px solid #FDB020;
   
 
 
@@ -41,6 +45,7 @@ h1, h2, h3, h4, h5, ul, p {
 .jobtitle {
   font-size:1.3em;
   font-weight:600;
+
 }
 .organization {
    font-size:1.5em;
