@@ -9,7 +9,7 @@ ul, p {
   font-weight: 300;
 }
 #top {
-}
+margin: 0px 0px 35px 0px}
 
 #name {
   font-size: 4em;
@@ -21,7 +21,7 @@ ul, p {
 }
 
 #bottom {
-}
+margin: 0px 0px 0px 10px}
 
 #experience {
 }
@@ -80,3 +80,11 @@ margin:5px 0px 0px 0px
 }
 .job {
 margin: 0px 0px 15px 0px}
+
+.education {
+margin: 0px 0px 20px 0px
+}
+
+.skills {
+margin:0px 0px 20px 0px
+}
