@@ -8,8 +8,10 @@ body {
 ul, p {
   font-weight: 300;
 }
+
 #top {
-margin: 0px 0px 35px 0px}
+margin: 0px 0px 35px 0px;
+}
 
 #name {
   font-size: 4em;
@@ -21,9 +23,11 @@ margin: 0px 0px 35px 0px}
 }
 
 #bottom {
-margin: 0px 0px 0px 10px}
+  margin: 0px 0px 0px 10px;
+}
 
 #experience {
+  margin: 0px 0px 20px 0px;
 }
 
 .sectionheader {
@@ -41,7 +45,6 @@ margin: 0px 0px 0px 10px}
 .jobtitle {
   font-size:1.3em;
   font-weight:600;
-
 }
 
 .organization {
@@ -68,23 +71,24 @@ margin: 0px 0px 0px 10px}
 
 
 .discription {
-margin: 10px 0px 0px 0px
+  margin: 10px 0px 0px 0px;
 }
 
 #degrees {
-margin: 5px 0px 0px 0px
+  margin: 5px 0px 0px 0px;
 }
 
 #do {
-margin:5px 0px 0px 0px
+  margin:5px 0px 0px 0px;
 }
 .job {
-margin: 0px 0px 15px 0px}
+  margin: 0px 0px 15px 0px;
+}
 
 .education {
-margin: 0px 0px 20px 0px
+  margin: 0px 0px 20px 0px;
 }
 
 .skills {
-margin:0px 0px 20px 0px
+  margin:0px 0px 20px 0px;
 }
