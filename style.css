@@ -31,9 +31,8 @@ h1, h2, h3, h4, h5, ul, p {
   text-transform:uppercase;
   color: rgba(255,255, 255, 1);
   background-color: #d1d1d1;
-  margin-bottom: 10px;
-  margin:0px auto;
-  text-align: center;
+  margin: 0px 0px 10px 0px;
+  text-align:center;
   width:30%;
   min-width: 150px;
   border-bottom: 1px solid #FDB020;
@@ -52,9 +51,8 @@ h1, h2, h3, h4, h5, ul, p {
  }
  .date {
   font-style: italic;
-  font-size: 12px;
-  margin-top: 2px;
-  margin:0px auto;
+  font-size:12px;
+  margin: 2px 0px 0px 0px;
 
 }
 
@@ -64,9 +62,11 @@ h1, h2, h3, h4, h5, ul, p {
   padding:0px auto;
 }
 .discription {
-margin-top: 10px;
-margin:0px auto;
+margin: 10px 0px 0px 0px
 }
-
-
+#degrees {
+margin: 5px 0px 0px 0px
+}
+#do {
+margin:5px 0px 0px 0px
 }
