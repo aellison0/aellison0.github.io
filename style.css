@@ -5,7 +5,7 @@ body {
   color:#444;
 }
 
-h1, h2, h3, h4, h5, ul, p {
+ul, p {
   font-weight: 300;
 }
 #top {
@@ -36,8 +36,6 @@ h1, h2, h3, h4, h5, ul, p {
   width:30%;
   min-width: 150px;
   border-bottom: 1px solid #FDB020;
-
-
 }
 
 .jobtitle {
@@ -45,28 +43,40 @@ h1, h2, h3, h4, h5, ul, p {
   font-weight:600;
 
 }
+
 .organization {
    font-size:1.5em;
    font-weight:300;
  }
- .date {
+
+.date {
   font-style: italic;
   font-size:12px;
   margin: 2px 0px 0px 0px;
-
 }
 
 .menu {
   font-size:1.10em;
-  margin:0px auto;
-  padding:0px auto;
+  margin:0px;
+  padding:0px;
+  text-align: center;
 }
+
+.menu li {
+  display:inline;
+}
+
+
 .discription {
 margin: 10px 0px 0px 0px
 }
+
 #degrees {
 margin: 5px 0px 0px 0px
 }
+
 #do {
 margin:5px 0px 0px 0px
 }
+.job {
+margin: 0px 0px 15px 0px}
