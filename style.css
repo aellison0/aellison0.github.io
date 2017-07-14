@@ -31,8 +31,13 @@ box-shadow: 0 1px 1px 0 rgba(0,0,0,0.2);
 }
 
 #bottom {
-  margin: 0px 0px 0px 10px;
-}
+  margin: 0px auto 0px auto;
+  position: relative;
+  width:95%;
+  top: 120px;
+  height: auto;
+  overflow: auto;
+  }
 
 #experience {
   margin: 0px 0px 20px 0px;
