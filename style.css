@@ -12,13 +12,13 @@ ul, p {
 }
 
 #top {
-margin: 0px 0px 35px 0px;
-padding: 0px 0px 10px 0px;
-background-color:#FFFFFF;
-width: 100%;
-position: fixed;
-z-index: 1;
-box-shadow: 0 1px 1px 0 rgba(0,0,0,0.2);
+  margin: 0px 0px 35px 0px;
+  padding: 0px 0px 10px 0px;
+  background-color:#FFFFFF;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,0.2);
 }
 
 #name {
@@ -59,8 +59,8 @@ box-shadow: 0 1px 1px 0 rgba(0,0,0,0.2);
 }
 
 .organization {
-   font-size:1.5em;
-   font-weight:300;
+  font-size:1.5em;
+  font-weight:300;
  }
 
 .date {
@@ -74,51 +74,56 @@ box-shadow: 0 1px 1px 0 rgba(0,0,0,0.2);
   margin:0px;
   padding:0px;
   text-align: center;
+  color: #444;
 }
 
 .menu li {
   display:inline;
 }
 
+.menu a {
+  text-decoration: none;
+  color: #444;
+}
 
 .discription {
   margin: 10px 0px 0px 0px;
 }
 
 .degrees, .do {
-margin: 5px 0px 0px 4%;
-float: left;
-width:60%;
--webkit-padding-start: 21px;
-border-left: 1px solid rgba(253,176,32, 0.3);
+  margin: 5px 0px 0px 4%;
+  float: left;
+  width:60%;
+  -webkit-padding-start: 21px;
+  border-left: 1px solid rgba(253,176,32, 0.3);
 
 }
 
-.degrees li, .do li { 
-margin: 0px 0px 3px 0px;
+.degrees li, .do li {
+  margin: 0px 0px 3px 0px;
 }
 .job {
   margin: 0px 0px 15px 0px;
 
 }
 .alljobs {
-width: 60%;
-float: left;
-margin: 0px 0px 0px 4%;
-border-left: 1px solid rgba(253,176,32, 0.3);
-padding: 0px 0px 0px 20px;
+  width: 60%;
+  float: left;
+  margin: 0px 0px 0px 4%;
+  border-left: 1px solid rgba(253,176,32, 0.3);
+  padding: 0px 0px 0px 20px;
 
 }
 #experience, #education, #skills {
-margin: 0px auto 20px auto;
-padding: 10px 10px 10px 10px;
-width: 90%;
-height: auto;
-overflow: auto;
-border: 1px solid #f2f2f2;
-box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  margin: 0px auto 20px auto;
+  padding: 10px 10px 10px 10px;
+  width: 90%;
+  height: auto;
+  overflow: auto;
+  border: 1px solid #f2f2f2;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 ul {
-list-style: none;
+  list-style: none;
 }
