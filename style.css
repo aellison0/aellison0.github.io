@@ -48,11 +48,13 @@ box-shadow: 0 1px 1px 0 rgba(0,0,0,0.2);
   text-transform:uppercase;
   color: rgba(255,255, 255, 1);
   background-color: #d1d1d1;
-  margin: 0px 0px 10px 0px;
+  margin: 7px 0px 10px 0px;
   text-align:center;
   width:30%;
   min-width: 150px;
-  border-bottom: 1px solid #FDB020;
+  border-bottom: 1px solid rgba(253,176,32, 0.4);
+  float: left;
+
 }
 
 .jobtitle {
@@ -104,4 +106,7 @@ box-shadow: 0 1px 1px 0 rgba(0,0,0,0.2);
 
 .skills {
   margin:0px 0px 20px 0px;
+}
+.alljobs {
+width: 65%;
 }
