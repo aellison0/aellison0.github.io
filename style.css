@@ -127,3 +127,20 @@ ul, p {
 ul {
   list-style: none;
 }
+
+/*this is x-small devices, mobile devices*/
+@media only screen  and (max-width:767px) {
+#name {
+  color:green;
+  }
+/* this is small device, tablets*/
+@media only screen and (min-width:768px) and (max-width:991px) {
+}
+
+/*this is medium devices, desktops*/
+@media only screen and (min-width:992px) and (max-width:1199px){
+}
+
+/*this is large devices, desktops*/
+@media only screen and (min-width:1200px {
+}
