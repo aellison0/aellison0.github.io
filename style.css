@@ -127,6 +127,9 @@ ul, p {
 ul {
   list-style: none;
 }
+.bolding {
+font-weight: 600;
+}
 
 /*this is x-small devices, mobile devices*/
 @media only screen  and (max-width:767px) {
@@ -153,13 +156,16 @@ ul {
   min-width: 0;
   text-align: center;
   }
-  #degrees, #do, li {
+  .degrees, .do, li {
   margin:15px 2% 0px 2%;
   padding: 0px 20px 0px 20px;
   width:100%;
   float:none;
   border-left: none;
   -webkit-padding-start:0px;
+  }
+  #education, #experience, #skills {
+    overflow-x: hidden;
   }
 }
 /* this is small device, tablets*/
@@ -181,13 +187,15 @@ ul {
   #experience {
   width: 60%;
   float:right;
+  overflow-x: hidden;
+
   }
   #education, #skills {
-  width:38.5%;
+  width:35.5%;
   float:left;
   overflow-x: hidden;
   }
-  #degrees, #do {
+  .degrees, .do {
   margin: 15px 2% 0px 2%;
   width:100%;
   float: none;
