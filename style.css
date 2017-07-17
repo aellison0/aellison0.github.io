@@ -130,47 +130,61 @@ ul {
 
 /*this is x-small devices, mobile devices*/
 @media only screen  and (max-width:767px) {
-#name {
-  font-size:3em;
-}
-#top {
-position: relative;
-}
-#bottom {
-top:0px;
-}
-.alljobs {
-margin: 0px 0px 0px 0px;
-padding: 10px 10px 10px 10px;
-border-left: none;
-width:100%;
-clear: right;
-}
-.sectionheader {
-margin: 10px auto 15px auto;
-padding: 5px 10px 5px 10px;
-width: 97%;
-min-width: 0;
-text-align: center;
-}
-#degrees, #do, li {
-margin:15px 2% 0px 2%;
-padding: 0px 20px 0px 20px;
-width:100%;
-float:none;
-border-left: none; 
--webkit-padding-start:0px;
-}
-
+  #name {
+    font-size:3em;
+  }
+  #top {
+  position: relative;
+  }
+  #bottom {
+  top:0px;
+  }
+  .alljobs {
+  margin: 0px 0px 0px 0px;
+  padding: 10px 10px 10px 10px;
+  border-left: none;
+  width:100%;
+  clear: right;
+  }
+  .sectionheader {
+  margin: 10px auto 15px auto;
+  padding: 5px 10px 5px 10px;
+  width: 97%;
+  min-width: 0;
+  text-align: center;
+  }
+  #degrees, #do, li {
+  margin:15px 2% 0px 2%;
+  padding: 0px 20px 0px 20px;
+  width:100%;
+  float:none;
+  border-left: none;
+  -webkit-padding-start:0px;
+  }
 }
 /* this is small device, tablets*/
 @media only screen and (min-width:768px) and (max-width:991px) {
+  #name {
+  font-size: 3.6em;
+  }
 }
 
 /*this is medium devices, desktops*/
 @media only screen and (min-width:992px) and (max-width:1199px){
+  #name {
+  font-size: 3.9em;
+  }
 }
 
 /*this is large devices, desktops*/
-@media only screen and (min-width:1200px {
+@media only screen and (min-width:1200px) {
+#experience {
+width: 60%;
+float:right;
+}
+#education, #skills {
+width:38.5%;
+float:left;
+overflow: hidden;
+} 
 }
