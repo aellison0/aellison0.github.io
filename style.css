@@ -131,8 +131,16 @@ ul {
 /*this is x-small devices, mobile devices*/
 @media only screen  and (max-width:767px) {
 #name {
-  color:green;
+  font-size:3em;
+  position: fixed;
   }
+.alljobs {
+margin: 0px 0px 0px 0px;
+padding: 10px 10px 10px 10px;
+border-left: none;
+width:100%;
+clear: right; 
+}
 /* this is small device, tablets*/
 @media only screen and (min-width:768px) and (max-width:991px) {
 }
