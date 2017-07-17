@@ -154,7 +154,13 @@ min-width: 0;
 text-align: center;
 }
 #degrees, #do, li {
-margin: }
+margin:15px 2% 0px 2%;
+padding: 0px 20px 0px 20px;
+width:100%;
+float:none;
+border-left: none; 
+-webkit-padding-start:0px;
+}
 
 }
 /* this is small device, tablets*/
