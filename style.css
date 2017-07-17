@@ -178,13 +178,34 @@ ul {
 
 /*this is large devices, desktops*/
 @media only screen and (min-width:1200px) {
-#experience {
-width: 60%;
-float:right;
-}
-#education, #skills {
-width:38.5%;
-float:left;
-overflow: hidden;
-} 
+  #experience {
+  width: 60%;
+  float:right;
+  }
+  #education, #skills {
+  width:38.5%;
+  float:left;
+  overflow-x: hidden;
+  }
+  #degrees, #do {
+  margin: 15px 2% 0px 2%;
+  width:100%;
+  float: none;
+  -webkit-padding-start: 0px;
+  border-left: none;
+  }
+  .sectionheader {
+  margin: 7px auto 15px auto;
+  padding: 5px 10px 5px 10px;
+  width:97%;
+  min-width: 0px;
+  clear: left;
+  }
+  .alljobs {
+  width: 100%;
+  float: none;
+  margin: 0px 0px 0px 0px;
+  border-left: none;
+  padding: 0px 10px 10px 10px;
+  }
 }
