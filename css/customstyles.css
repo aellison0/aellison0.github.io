@@ -8,7 +8,7 @@ body {
 }
 
 .row, .row * {
-  border: 1px dashed blue hidden;
+  border: 1px dashed blue;
   background-color: #f0f2f7;
 }
 .row, .row #name {
@@ -68,4 +68,19 @@ font-size:22px;
 font-weight: bold;
 text-transform: uppercase;
 padding: 20px 20px 20px 20px;
+ }
+/* this is extra small devices, phones*/
+@media only screen and (min-width:768px){
+}
+
+/*this is small devices, tablets*/
+@media only screen and (){
+}
+
+/*this is medium devices, Desktops*/
+@media only screen and (){
+}
+
+/*this is large devices, Desktops*/
+@media only screen and (){
 }
