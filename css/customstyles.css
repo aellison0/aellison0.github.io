@@ -3,16 +3,40 @@
 
 body {
   padding-top: 100px;
-  font-size:20px;
-}
-.row, .row * {
-  border: 1px dashed blue;
+  font-size:15px;
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
 }
 
-#top {
+.row, .row * {
+  border: 1px dashed blue hidden;
+  background-color: #f0f2f7;
+}
+.top {
+margin-bottom: 20px;
+}
+.details {
+margin-top: 20px;
+margin-bottom: 20px;
 }
 #name {
+text-align:center;
+font-size: 100px;
+color: #FFFF;
+font-weight: 800;
 
+
+
+}
+.resume {
+text-align: center;
+font-size: 50px;
+
+
+}
+.contact {
+text-align:center;
+margin-bottom: 300px;
+font-size: 20px;
 }
 .menu li {
 display: inline;
@@ -21,4 +45,19 @@ display: inline;
 .navbar {
 background-color: #000000;
 font color: #ffffff;
+}
+.sectiontitle {
+text-align: center;
+font-size: 45px;
+font-weight: 800;
+margin-bottom:30px;
+color:#ffff;
+border-bottom: 4px solid #ffffff;
+}
+.jobtitle {
+text-align: left;
+font-size:22px;
+font-weight: bold;
+text-transform: uppercase;
+padding: 20px 20px 20px 20px;
 }

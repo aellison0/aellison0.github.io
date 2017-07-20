@@ -56,11 +56,13 @@ ul, p {
 .jobtitle {
   font-size:1.3em;
   font-weight:600;
+  text-align: center;
 }
 
 .organization {
   font-size:1.5em;
   font-weight:300;
+
  }
 
 .date {
