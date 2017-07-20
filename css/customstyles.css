@@ -64,11 +64,15 @@ border-bottom: 1px solid #ffffff;
 }
 .jobtitle {
 text-align: left;
+font-family: Roboto Slab;
 font-size:22px;
 font-weight: bold;
 text-transform: uppercase;
 padding: 20px 20px 20px 20px;
  }
+ ul {
+ list-style: none;
+}
 /* this is extra small devices, phones*/
 @media only screen and (min-width:768px){
 }
