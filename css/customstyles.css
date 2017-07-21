@@ -6,72 +6,70 @@ body {
   font-size:15px;
   font-family: 'Raleway', Helvetica, Arial, sans-serif;
 }
-
-.row, .row * {
-  border: 1px dashed blue;
-  background-color: #f0f2f7;
-}
-.row, .row #name {
-background-color: #FFF;
-}
-.row, .row .contact, .menu {
-background-color: #FFF;
-}
-.top {
-margin-bottom: 20px;
-background-color:#FFF;
-}
-.details {
-margin-top: 20px;
-margin-bottom: 20px;
-
-}
-#name {
-text-align:center;
-font-size: 100px;
-color: #FFFF;
-font-weight: 800;
-
-
-
-}
-.resume {
-text-align: center;
-font-size: 50px;
-
-
-}
-.contact {
-text-align:center;
-margin-bottom: 300px;
-font-size: 20px;
-}
-.menu li {
-display: inline;
-}
-}
 .navbar {
 background-color: #000000;
 font color: #ffffff;
 }
+.row, .row * {
+  border: 1px dashed blue;
+  background-color: #f0f2f7;
+}
+div col-sm-6 .education {
+margin-bottom: 0px;
+}
+.top {
+margin-bottom: 50px;
+border: 4px solid #C39CD1;
+background-color: #C39CD1;
+}
+#name{
+text-align: center;
+font-size: 100px;
+color: #fff;
+font-weight: 900;
+font-family: 'Raleway';
+background-color: #C39CD1;
+
+}
+.experience {
+margin-bottom: 50px;
+}
+.contact {
+text-align: center;
+line-height: 4em;
+}
 .sectiontitle {
 text-align: center;
 font-size: 45px;
-font-weight: 800;
-margin-bottom:10px;
-color:#ffff;
-border-bottom: 1px solid #ffffff;
+font-weight:900;
+font-family: 'Roboto Slab';
 }
 .jobtitle {
+text-align: center;
+font-weight: 800;
+font-family: serif;
+font-size: 20px;
+}
+.date {
+font-weight: 600;
+}
+.description, .date {
+margin-bottom:10px;
+padding-left:0px;
 text-align: left;
-font-family: Roboto Slab;
-font-size:22px;
-font-weight: bold;
-text-transform: uppercase;
-padding: 20px 20px 20px 20px;
- }
+font-family: helvetica;
+}
+.do, .degree {
+text-align: left;
+padding-left:0px;
+}
+.menu li {
+display:inline;
+}
+
  ul {
  list-style: none;
+
 }
 /* this is extra small devices, phones*/
 @media only screen and (min-width:768px){
