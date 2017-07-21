@@ -1,0 +1,39 @@
+/* No CSS Reset with Bootstrap */
+/*These initial styles come from here: http://getbootstrap.com/examples/starter-template/starter-template.css*/
+
+body {
+  padding-top: 50px;
+  font-size:12px;
+  font-family: 'Open Sans' Helvetica sans-serif;
+  }
+.row, .row * {
+border: 2px dashed blue;
+}
+.navbar {
+background-color: #101010;
+}
+
+.topsection {
+text-align:center;
+margin: 20px 0px 0px 0px;
+}
+.topbox {
+}
+h1 {
+font-size: 5rem;
+font-weight: 600;
+}
+.byline {
+font-size: 1.5rem;
+text-transform: uppercase;
+font-weight: 400;
+color: #777;
+margin: 15px 0px 20px 0px;
+font-style: italic;
+}
+.lowercase {
+text-transform: lowercase;
+}
+.lead { 
+font-size: 1.75rem;
+}
