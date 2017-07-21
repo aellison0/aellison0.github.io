@@ -7,7 +7,7 @@ body {
   font-family: 'Open Sans' Helvetica sans-serif;
   }
 .row, .row * {
-border: 2px dashed blue;
+border: 2px dashed blue hidden;
 }
 .navbar {
 background-color: #101010;
@@ -34,6 +34,33 @@ font-style: italic;
 .lowercase {
 text-transform: lowercase;
 }
-.lead { 
+.lead {
 font-size: 1.75rem;
+}
+.graphiccontainer {
+margin: 0px 20px 0px 0px;
+padding:20px 20px 20px 20px;
+}
+.textblock {
+margin: 0px 20px 0px 0px;
+}
+.graphictitle h2{
+  font-size: 2.5rem;
+  margin:0px;
+  padding:0px;
+}
+.graphictext {
+margin: 15px 0px 0px 0px;
+}
+p {
+font-size: 1.35rem;
+margin: 0 0 10px;
+text-align: left;
+
+}
+.graphicblock {
+padding:0px 20px 0px 20px;
+border-left: 2px solid #777;
+}
+.graphiccontent {
 }
