@@ -23,3 +23,16 @@ h1 {
 font-size: 5rem;
 font-weight: 600;
 }
+.byline {
+font-size: 1.5rem;
+font-weight: 400;
+color: #777;
+margin: 15px 0px 20px 0px;
+font-style: italic;
+}
+.lowercase {
+text-transform: lowercase;
+}
+.lead {
+font-size: 1.5rem;
+}
