@@ -7,8 +7,19 @@ body {
   font-family: 'Open Sans' Helvetica sans-serif;
   }
 .row, .row * {
-border: 2px dashed blue hidden;
+border: 2px dashed blue;
 }
 .navbar {
 background-color: #101010;
+}
+.topsection {
+}
+.topbox {
+}
+h1, .byline, .lead {
+text-align: center;
+}
+h1 {
+font-size: 5rem;
+font-weight: 600;
 }
