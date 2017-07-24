@@ -4,14 +4,9 @@
 body {
   padding-top: 50px;
   font-size:12px;
-<<<<<<< HEAD
   font-family: 'Open Sans', Helvetica, sans-serif;
 }
 
-=======
-  font-family: 'Open Sans' Helvetica sans-serif;
-}
->>>>>>> FETCH_HEAD
 .row, .row * {
   border: 2px dashed blue hidden;
 }
@@ -19,23 +14,15 @@ body {
 .navbar {
   background-color: #101010;
 }
+
 .topsection {
-<<<<<<< HEAD
   text-align:center;
   margin: 20px 0px 0px 0px;
-=======
->>>>>>> FETCH_HEAD
 }
 
 .topbox {
 }
-<<<<<<< HEAD
 
-=======
-h1, .byline, .lead {
-  text-align: center;
-}
->>>>>>> FETCH_HEAD
 h1 {
   font-size: 5rem;
   font-weight: 600;
@@ -43,10 +30,7 @@ h1 {
 
 .byline {
   font-size: 1.5rem;
-<<<<<<< HEAD
   text-transform: uppercase;
-=======
->>>>>>> FETCH_HEAD
   font-weight: 400;
   color: #777;
   margin: 15px 0px 20px 0px;
@@ -57,71 +41,42 @@ h1 {
 }
 
 .lead {
-<<<<<<< HEAD
   font-size: 1.75rem;
-=======
-  font-size: 1.5rem;
->>>>>>> FETCH_HEAD
 }
 
 .graphiccontainer {
-<<<<<<< HEAD
   margin: 0px 20px 0px 0px;
   padding:20px 20px 20px 20px;
-=======
-  margin: 0px 0px 20px 0px;
-  padding: 20px 20px 20px 20px;
->>>>>>> FETCH_HEAD
 }
 
 .textblock {
-<<<<<<< HEAD
   margin: 0px 20px 0px 0px;
 }
 
 .graphictitle h2 {
   font-size: 2.5rem;
-=======
-  margin: 0px 20px 0px 20px;
-  padding: 0px 20px 0px 0px;
-}
-.graphictitle {
-}
-h2 {
-  font-size: 2rem;
->>>>>>> FETCH_HEAD
   margin:0px;
-  padding: 0px;
+  padding:0px;
 }
 
 .graphictext {
   margin: 15px 0px 0px 0px;
 }
-<<<<<<< HEAD
 
 p {
   font-size: 1.35rem;
   margin: 0 0 10px;
   text-align: left;
-=======
-p {
-  font-size: 1.35rem;
->>>>>>> FETCH_HEAD
 }
 
 .graphicblock {
-<<<<<<< HEAD
   padding:0px 20px 0px 20px;
-=======
-  padding: 0px 20px 0px 20px;
->>>>>>> FETCH_HEAD
   border-left: 2px solid #777;
 }
 
 .graphiccontent {
 }
 
-<<<<<<< HEAD
 @media only screen and (max-width: 768px) { 
   .textblock {
       margin: 0px 0px 0px 0px;
@@ -138,21 +93,4 @@ p {
   .topsection h1 {
       font-size: 3.8rem;
   }
-=======
-@media only screen and (max-width:768px) {
-.textblock {
-  margin: 0px;
-  padding:20px;
-}
-.graphicblock {
-  border-bottom: 2px solid #777;
-  padding: 20px;
-}
-.topsection{
-  padding: 20px 20px 20px 20px;
-}
-h1  {
-  font-size: 3.8rem;
-}
->>>>>>> FETCH_HEAD
 }
