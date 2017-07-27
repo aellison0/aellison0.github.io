@@ -188,7 +188,7 @@
      <script>
      Highcharts.chart('passeschart', {
          chart: {
-             type: 'column'
+             type: 'bar'
          },
          title: {
              text:  'Average Number of Passes per Game by World Cup Quarterfinalists '
@@ -196,10 +196,13 @@
          subtitle: {
              text: 'Source: <a href="http://www.fifa.com/worldcup/archive/brazil2014/statistics/teams/passes.html">FIFA</a>'
          },
+         credits: {
+          enabled: false
+        },
          xAxis: {
              type: 'category',
              labels: {
-                 rotation: -45,
+                 rotation: 0,
                  style: {
                      fontSize: '13px',
                      fontFamily: 'Verdana, sans-serif'
@@ -209,48 +212,37 @@
          yAxis: {
              min: 0,
              title: {
-                 text: 'Population (millions)'
+                 text: 'Average number of passes per game'
              }
          },
          legend: {
              enabled: false
          },
          tooltip: {
+             enabled:false,
              pointFormat: 'Population in 2008: <b>{point.y:.1f} millions</b>'
          },
          series: [{
              name: 'Population',
              data: [
-                 ['Shanghai', 23.7],
-                 ['Lagos', 16.1],
-                 ['Istanbul', 14.2],
-                 ['Karachi', 14.0],
-                 ['Mumbai', 12.5],
-                 ['Moscow', 12.1],
-                 ['São Paulo', 11.8],
-                 ['Beijing', 11.7],
-                 ['Guangzhou', 11.1],
-                 ['Delhi', 11.1],
-                 ['Shenzhen', 10.5],
-                 ['Seoul', 10.4],
-                 ['Jakarta', 10.0],
-                 ['Kinshasa', 9.3],
-                 ['Tianjin', 9.3],
-                 ['Tokyo', 9.0],
-                 ['Cairo', 8.9],
-                 ['Dhaka', 8.9],
-                 ['Mexico City', 8.9],
-                 ['Lima', 8.9]
+                 ['Germany', 726],
+                 ['Argentina', 617],
+                 ['France', 552],
+                 ['Netherlands', 551],
+                 ['Belgium', 534],
+                 ['Brazil', 516],
+                 ['Costa Rica', 448],
+                 ['Columbia', 414],
              ],
              dataLabels: {
                  enabled: true,
-                 rotation: -90,
-                 color: '#FFFFFF',
+                 rotation: 0,
+                 color: '#000000',
                  align: 'right',
                  format: '{point.y:.1f}', // one decimal
-                 y: 10, // 10 pixels down from the top
+                 y: 0, // 10 pixels down from the top
                  style: {
-                     fontSize: '13px',
+                     fontSize: '10',
                      fontFamily: 'Verdana, sans-serif'
                  }
              }
