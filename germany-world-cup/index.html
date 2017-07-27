@@ -133,15 +133,39 @@
         </div><!--closes textblock-->
         <div class="col-sm-7 graphicblock">
           <div class="col-sm-12 graphiccontent">
-            <p>"Germany demonstrated outstanding ball movement, which led them to taking great shots. Germany averaged 726.29 passes per game, almost doubling the amount of passes averaged by the other components."</P>
-            <p> "Germany's was very efficient with there passing completion.  Germany led the passing percentage with an impressive passing completion percentage of 82%."</p>
-            <p> "The team dominated as they have given themselves both abundant and efficent scoring opportunities. Germany averaged nearly 16 shots per game in which 10 of those shots were on target."</p>
-            <p> "The difference in goals for and goals aganst had a major impact on Germany's World Cup victory.  Theier difference in goals for and goals against was 14."</p>
-            <p> "Germany dominated in the tournament defensively as well.  The men protected thier goal with an average of 13 clearances per game."</p>
-            <p> "Germany's deffense made it nearly impossible for teams to make plays across court.  The team won an average of 13 tackles per game."</P>
+            <p>Germany demonstrated outstanding ball movement, which led them to taking great shots. Germany averaged 726.29 passes per game, almost doubling the amount of passes averaged by the other components.</P>
+            <p> Germany's was very efficient with there passing completion.  Germany led the passing percentage with an impressive passing completion percentage of 82%.</p>
+            <p> The team dominated as they have given themselves both abundant and efficent scoring opportunities. Germany averaged nearly 16 shots per game in which 10 of those shots were on target.</p>
+            <p> The difference in goals for and goals aganst had a major impact on Germany's World Cup victory.  Theier difference in goals for and goals against was 14.</p>
+            <p> Germany dominated in the tournament defensively as well.  The men protected thier goal with an average of 13 clearances per game.</p>
+            <p> Germany's deffense made it nearly impossible for teams to make plays across court.  The team won an average of 13 tackles per game.</P>
             </div><!--closes graphiccontent-->
           </div><!--closes graphicblock-->
         </div><!--this closes graphiccontainer-->
+      <div class="row graphiccontainer" id="five">
+        <div class="col-sm-3 textblock col-sm-offset-1">
+          <div class="col-sm-12 graphictitle">
+            <h2>A Passing Machine<h2>
+          </div><!--closes graphictitle-->
+          <div class="col-sm-12 graphictext">
+            <p> Germany moved the ball around the field at a rapid clip throughout the tournament, passing the ball on average of 726 times per game--well above the median of 513 passes for all 32 teams.</p>
+          </div><!--closes graphictext-->
+        </div><!--closes textblock-->
+        <div class="col-sm-7 graphicblock">
+          <div class="col-sm-12 graphiccontent">
+            <div id="passeschart"></div>
+
+
+
+
+
+
+
+          </div><!--closes graphiccontent-->
+        </div><!--closes graphicblock-->
+      </div><!--this closes graphiccontainer-->
+
+
 
 
 
@@ -160,5 +184,78 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+     <script src="Highcharts-5.0.13/code/highcharts.js"></script>
+     <script>
+     Highcharts.chart('passeschart', {
+         chart: {
+             type: 'column'
+         },
+         title: {
+             text: 'World\'s largest cities per 2014'
+         },
+         subtitle: {
+             text: 'Source: <a href="http://en.wikipedia.org/wiki/List_of_cities_proper_by_population">Wikipedia</a>'
+         },
+         xAxis: {
+             type: 'category',
+             labels: {
+                 rotation: -45,
+                 style: {
+                     fontSize: '13px',
+                     fontFamily: 'Verdana, sans-serif'
+                 }
+             }
+         },
+         yAxis: {
+             min: 0,
+             title: {
+                 text: 'Population (millions)'
+             }
+         },
+         legend: {
+             enabled: false
+         },
+         tooltip: {
+             pointFormat: 'Population in 2008: <b>{point.y:.1f} millions</b>'
+         },
+         series: [{
+             name: 'Population',
+             data: [
+                 ['Shanghai', 23.7],
+                 ['Lagos', 16.1],
+                 ['Istanbul', 14.2],
+                 ['Karachi', 14.0],
+                 ['Mumbai', 12.5],
+                 ['Moscow', 12.1],
+                 ['São Paulo', 11.8],
+                 ['Beijing', 11.7],
+                 ['Guangzhou', 11.1],
+                 ['Delhi', 11.1],
+                 ['Shenzhen', 10.5],
+                 ['Seoul', 10.4],
+                 ['Jakarta', 10.0],
+                 ['Kinshasa', 9.3],
+                 ['Tianjin', 9.3],
+                 ['Tokyo', 9.0],
+                 ['Cairo', 8.9],
+                 ['Dhaka', 8.9],
+                 ['Mexico City', 8.9],
+                 ['Lima', 8.9]
+             ],
+             dataLabels: {
+                 enabled: true,
+                 rotation: -90,
+                 color: '#FFFFFF',
+                 align: 'right',
+                 format: '{point.y:.1f}', // one decimal
+                 y: 10, // 10 pixels down from the top
+                 style: {
+                     fontSize: '13px',
+                     fontFamily: 'Verdana, sans-serif'
+                 }
+             }
+         }]
+     });
+    </script>
   </body>
 </html>
