@@ -10,7 +10,9 @@ body {
 .row, .row * {
   border: 2px dashed blue hidden;
 }
-
+#hide {
+display: none;
+}
 .navbar {
   background-color: #101010;
 }
