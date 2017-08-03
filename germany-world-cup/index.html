@@ -200,68 +200,52 @@
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
      <script src="Highcharts-5.0.13/code/highcharts.js"></script>
      <script>
-     Highcharts.chart('passeschart', {
-         chart: {
-             type: 'bar'
-         },
+     Highcharts.chart('container', {
+
+     title: {
+         text: 'Number of IMDB Movie Rankings by Decade'
+     },
+
+     subtitle: {
+         text: 'Source: thesolarfoundation.com'
+     },
+
+     yAxis: {
          title: {
-             text:  'Average Number of Passes per Game by World Cup Quarterfinalists '
-         },
-         subtitle: {
-             text: 'Source: <a href="http://www.fifa.com/worldcup/archive/brazil2014/statistics/teams/passes.html">FIFA</a>'
-         },
-         credits: {
-          enabled: false
-        },
-         xAxis: {
-             type: 'category',
-             labels: {
-                 rotation: 0,
-                 style: {
-                     fontSize: '13px',
-                     fontFamily: 'Verdana, sans-serif'
-                 }
-             }
-         },
-         yAxis: {
-             min: 0,
-             title: {
-                 text: 'Average number of passes per game'
-             }
-         },
-         legend: {
-             enabled: false
-         },
-         tooltip: {
-             enabled:false,
-             pointFormat: 'Population in 2008: <b>{point.y:.1f} millions</b>'
-         },
-         series: [{
-             name: 'Population',
-             data: [
-                 ['Germany', 726],
-                 ['Argentina', 617],
-                 ['France', 552],
-                 ['Netherlands', 551],
-                 ['Belgium', 534],
-                 ['Brazil', 516],
-                 ['Costa Rica', 448],
-                 ['Columbia', 414],
-             ],
-             dataLabels: {
-                 enabled: true,
-                 rotation: 0,
-                 color: '#000000',
-                 align: 'right',
-                 format: '{point.y:.1f}', // one decimal
-                 y: 0, // 10 pixels down from the top
-                 style: {
-                     fontSize: '10',
-                     fontFamily: 'Verdana, sans-serif'
-                 }
-             }
-         }]
-     });
+             text: 'Number of Employees'
+         }
+     },
+     legend: {
+         layout: 'vertical',
+         align: 'right',
+         verticalAlign: 'middle'
+     },
+
+     plotOptions: {
+         series: {
+             pointStart: 2010
+         }
+     },
+
+     series: [{
+         name: 'Installation',
+         data: [43934, 52503, 57177, 69658, 97031, 119931, 137133, 154175]
+     }, {
+         name: 'Manufacturing',
+         data: [24916, 24064, 29742, 29851, 32490, 30282, 38121, 40434]
+     }, {
+         name: 'Sales & Distribution',
+         data: [11744, 17722, 16005, 19771, 20185, 24377, 32147, 39387]
+     }, {
+         name: 'Project Development',
+         data: [null, null, 7988, 12169, 15112, 22452, 34400, 34227]
+     }, {
+         name: 'Other',
+         data: [12908, 5948, 8105, 11248, 8989, 11816, 18274, 18111]
+     }]
+
+ });
+
     </script>
     <script>
     Highcharts.chart('winlosschart', {
