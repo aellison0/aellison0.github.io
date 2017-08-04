@@ -16,4 +16,4 @@ $("#togglequarterfinalists").click(function() {
     }
     $("#togglequarterfinalists").toggleClass("btn-danger");
   });
-});
+  });
